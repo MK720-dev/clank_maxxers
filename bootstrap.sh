@@ -26,6 +26,9 @@ fi
 
 echo "✅ Using $PYTHON"
 
+echo "If python throws an error try the following and run the script again:"
+echo "Go to -> 'start' and type 'Manage App Execution Aliases'. Go to it and turn off 'Python'"
+
 ############################################
 # Enforce Python Version
 ############################################
@@ -107,7 +110,9 @@ echo ""
 echo "🎉 Environment ready!"
 echo ""
 echo "Activate anytime with:"
-echo "source venv/bin/activate"
+echo "./venv/Scripts/activate"
 echo ""
+echo "If you're having trouble activating from VSCode's powershell run the following command:"
+echo "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser"
 echo "Then launch Webots 🚗"
 echo ""

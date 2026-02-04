@@ -1,0 +1,123 @@
+############################################
+# Webots Generated / Temporary Files
+############################################
+
+# Visual Studio
+.vs/
+
+# Controller build folders
+build/
+bin/
+lib/
+*.o
+*.so
+*.a
+*.dll
+*.dylib
+
+# Webots cache & temporary files
+*.wbproj
+.cache/
+tmp/
+temp/
+
+# Simulation recordings / exports
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.log
+
+############################################
+# Python (if using Python controllers)
+############################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# Packaging
+dist/
+build/
+*.egg-info/
+
+############################################
+# C / C++
+############################################
+*.out
+*.app
+*.exe
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+############################################
+# Java
+############################################
+*.class
+*.jar
+*.war
+*.ear
+.gradle/
+build/
+
+############################################
+# Node (if dashboard / web UI exists)
+############################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+
+############################################
+# IDEs and Editors
+############################################
+
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+############################################
+# OS Files
+############################################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+############################################
+# Secrets / Environment
+############################################
+.env
+*.env
+*.key
+*.pem
+
+############################################
+# Misc
+############################################
+coverage/
+*.coverage
+htmlcov/

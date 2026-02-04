@@ -14,10 +14,12 @@ echo ""
 # Detect Python
 ############################################
 
-if command -v python3 &> /dev/null; then
-    PYTHON=python3
+if command -v py &> /dev/null; then
+    PYTHON="py -3"
+elif command -v python3 &> /dev/null; then
+    PYTHON="python3"
 elif command -v python &> /dev/null; then
-    PYTHON=python
+    PYTHON="python"
 else
     echo "❌ Python is not installed."
     echo "👉 Install from: https://www.python.org/downloads/"
@@ -110,11 +112,18 @@ END
 echo ""
 echo "🎉 Environment ready!"
 echo ""
-echo "Activate anytime with:"
-echo "./venv/Scripts/activate"
+
+if [ -f "venv/bin/activate" ]; then
+    echo "Activate with:"
+    echo "source venv/bin/activate"
+elif [ -f "venv/Scripts/activate" ]; then
+    echo "Activate with:"
+    echo "venv\\Scripts\\activate"
+else
+    echo "Activate your virtual environment manually."
+fi
+
 echo ""
-echo "If you're having trouble activating from VSCode's powershell run the following command:"
-echo "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser"
+echo "Happy building 🤖"
 echo ""
-echo "Then launch Webots 🚗"
-echo ""
+

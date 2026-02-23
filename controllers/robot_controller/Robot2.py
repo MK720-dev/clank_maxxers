@@ -51,7 +51,7 @@ state = SCAN
 # NOTE: "steps" are controller iterations, not degrees.
 # Tune steps_for_60 to visually match ~60° in your world.
 # -----------------------------
-steps_for_60 = 8
+steps_for_60 = 12
 steps_for_120 = 2 * steps_for_60
 scan_phase = 1
 scan_steps = 0
@@ -167,7 +167,7 @@ green_stop_counter = 0
 # -----------------------------
 # Forward State Timing
 # -----------------------------
-FORWARD_DURATION_MS = 1800
+FORWARD_DURATION_MS = 1900
 forward_counter = 0
 
 

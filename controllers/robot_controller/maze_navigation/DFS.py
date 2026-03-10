@@ -113,3 +113,4 @@ if __name__ == "__main__":
     # Check exit revisits (basic sanity)
     # Each undirected corridor should produce 2 directed exits visited eventually.
     print("Visited exits count:", len(visited_exits))
+

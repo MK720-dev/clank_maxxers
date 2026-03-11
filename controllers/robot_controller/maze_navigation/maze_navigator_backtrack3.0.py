@@ -12,14 +12,16 @@ WHEEL_RADIUS_M = 0.0205
 AXLE_LENGTH_M = 0.052
 PROBE_DIST_M = 0.08
 WALL_SPIKE_THRESH = 95.0
-FWD_SPEED = 3.0
-TURN_SPEED = 3.0
+FWD_SPEED = 4
+TURN_SPEED = 0.5
 TILE_SIZE_M = 0.25
 LEFT_MOTOR_NAME = "left wheel motor"
 RIGHT_MOTOR_NAME = "right wheel motor"
 LEFT_ENC_NAME = "left wheel sensor"
 RIGHT_ENC_NAME = "right wheel sensor"
 PS_NAMES = [f"ps{i}" for i in range(8)]
+TURN_90_STEPS = 140
+RECALIBRATE_EVERY = 5  # tune this
 
 # ----------------------------
 # Direction maps (absolute)
@@ -30,6 +32,7 @@ DY = {"N": 1, "E": 0, "S": -1, "W": 0}
 LEFT_OF  = {"N": "W", "E": "N", "S": "E", "W": "S"}
 RIGHT_OF = {"N": "E", "E": "S", "S": "W", "W": "N"}
 BACK_OF  = {"N": "S", "E": "W", "S": "N", "W": "E"}
+TURN_ORDER = {"N": 0, "E": 1, "S": 2, "W": 3}
 
 # ----------------------------
 # State Machine
@@ -40,6 +43,7 @@ class State(Enum):
     MOVE_ONE_TILE   = auto()
     RETURN_TO_START = auto()
     IDLE            = auto()
+    BACKTRACK = auto()
 
 # ----------------------------
 # JSON helpers
@@ -102,26 +106,17 @@ def drive_distance(robot, left_motor, right_motor,
 
 def turn_90(robot, left_motor, right_motor,
             left_enc, right_enc, timestep, turn_dir, speed):
-    target = (math.pi / 2.0) * 1.08
-    turned = 0.0
-    prev_l = left_enc.getValue()
-    prev_r = right_enc.getValue()
     lv, rv = (-speed, speed) if turn_dir == "left" else (speed, -speed)
     left_motor.setVelocity(lv)
     right_motor.setVelocity(rv)
-    while robot.step(timestep) != -1:
-        l, r   = left_enc.getValue(), right_enc.getValue()
-        dl, dr = (l - prev_l) * WHEEL_RADIUS_M, (r - prev_r) * WHEEL_RADIUS_M
-        prev_l, prev_r = l, r
-        turned += abs((dr - dl) / AXLE_LENGTH_M)
-        if turned >= target:
-            break
+    for _ in range(TURN_90_STEPS):  # exact timestep count
+        robot.step(timestep)
     left_motor.setVelocity(0.0)
     right_motor.setVelocity(0.0)
 
 def turn_180(robot, left_motor, right_motor,
              left_enc, right_enc, timestep, speed):
-    target = math.pi * 1.106
+    target = math.pi * 1.14
     turned = 0.0
     prev_l = left_enc.getValue()
     prev_r = right_enc.getValue()
@@ -137,6 +132,10 @@ def turn_180(robot, left_motor, right_motor,
     left_motor.setVelocity(0.0)
     right_motor.setVelocity(0.0)
 
+    for _ in range(10):
+        robot.step(timestep)
+
+
 def turn_to_dir(robot, ctx, target_dir):
     while ctx["heading"] != target_dir:
         cur_idx = DIRS.index(ctx["heading"])
@@ -151,13 +150,22 @@ def turn_to_dir(robot, ctx, target_dir):
                     ctx["left_enc"], ctx["right_enc"], ctx["timestep"], "left", TURN_SPEED)
             ctx["heading"] = LEFT_OF[ctx["heading"]]
         else:  # diff == 2
-            turn_180(robot, ctx["left_motor"], ctx["right_motor"],
-                     ctx["left_enc"], ctx["right_enc"], ctx["timestep"], TURN_SPEED)
+            for i in range(2):
+                turn_90(robot, ctx["left_motor"], ctx["right_motor"],
+                         ctx["left_enc"], ctx["right_enc"], ctx["timestep"], "right", TURN_SPEED)
             ctx["heading"] = BACK_OF[ctx["heading"]]
-
 # ----------------------------
 # Probing
 # ----------------------------
+
+def probe_all_dirs(robot, ctx):
+    open_exits = set()
+    for d in DIRS:
+        is_wall, _ = probe_dir(robot, ctx, d)
+        if not is_wall:
+            open_exits.add(d)
+    return open_exits
+
 def probe_dir(robot, ctx, abs_dir):
     original_heading = ctx["heading"]
 
@@ -177,12 +185,54 @@ def probe_dir(robot, ctx, abs_dir):
 
     return is_wall, reading
 
+# ------------------------
+# Re-calibration
+# ------------------------
+def find_heading_offset(known_opens, observed_opens):
+    # try all 4 rotations and see which one maps known to observed
+    rotation_map = {
+        0:   {"N":"N", "E":"E", "S":"S", "W":"W"},
+        1:   {"N":"E", "E":"S", "S":"W", "W":"N"},  # 90 CW
+        2:   {"N":"S", "E":"W", "S":"N", "W":"E"},  # 180
+        3:   {"N":"W", "E":"N", "S":"E", "W":"S"},  # 90 CCW
+    }
+    for steps, rmap in rotation_map.items():
+        rotated = {rmap[d] for d in known_opens}
+        if rotated == observed_opens:
+            return steps  # number of 90 CW steps off
+    return None  # ambiguous, can't determine
 
+def recalibrate_heading(robot, ctx):
+    cur = ctx["tile"]
+    if cur not in ctx["opens_map"]:
+        return  # can't recalibrate without known reference
+    
+    known_opens = ctx["opens_map"][cur]
+    observed_opens = probe_all_dirs(robot, ctx)
+    
+    offset = find_heading_offset(known_opens, observed_opens)
+    if offset is None:
+        print("RECALIBRATE | ambiguous pattern, skipping")
+        return
+    if offset == 0:
+        print("RECALIBRATE | heading confirmed correct")
+        return
+    
+    # figure out true heading
+    cur_idx = DIRS.index(ctx["heading"])
+    true_heading = DIRS[(cur_idx + offset) % 4]
+    print(f"RECALIBRATE | was {ctx['heading']}, correcting to {true_heading}")
+    ctx["heading"] = true_heading
+
+# -------------------------
+# Behavior Functions
+# -------------------------
 def behavior_probing(ctx):
     cur = ctx["tile"]
 
     if cur in ctx["opens_map"]:
         print("PROBING | tile", cur, "already known, skipping")
+        log_event(ctx, "PROBING_SKIP", extra={"reason": "already known", "opens": sorted(ctx["opens_map"][cur])})
         ctx["state"] = State.DECIDE_NEXT
         return
 
@@ -190,34 +240,96 @@ def behavior_probing(ctx):
     open_exits = set()
     readings   = {}
 
-    for d in DIRS:
+    original_heading = ctx["heading"]
+    probing_dirs = [RIGHT_OF[original_heading], LEFT_OF[original_heading], original_heading]
+
+    for d in probing_dirs:
         is_wall, reading = probe_dir(robot, ctx, d)
         readings[d] = round(reading, 1)
         if not is_wall:
             open_exits.add(d)
-
-    # Safety: direction we arrived from is always open
-    if cur != ctx["start_tile"]:
-        open_exits.add(BACK_OF[ctx["heading"]])
-
+    
     ctx["opens_map"][cur] = open_exits
 
     print("PROBING | tile", cur, "heading", ctx["heading"],
-          "| opens:", sorted(open_exits), "| readings:", readings)
+            "| opens:", sorted(open_exits), "| readings:", readings)
     log_event(ctx, "PROBING", extra={"opens": sorted(open_exits), "readings": readings})
-
     ctx["state"] = State.DECIDE_NEXT
 
 # ----------------------------
 # Placeholders
 # ----------------------------
 def behavior_decide_next(ctx):
-    print("DECIDE_NEXT (placeholder) | tile", ctx["tile"])
-    ctx["state"] = State.IDLE
+    
+    cur = ctx["tile"]
+
+    if cur not in ctx["visited_tiles"]:
+        ctx["visited_tiles"].add(cur)
+
+    print("DECIDE_NEXT (placeholder) | tile", cur, "| opens:", sorted(ctx["opens_map"][cur]))
+    print("visited_tiles has cur?", cur in ctx["visited_tiles"])
+    print("DECIDE_NEXT | visited_exits:", sorted(ctx["visited_exits"]))
+    print("DECIDE_NEXT | stack:", ctx["stack"])
+
+    open_dirs = ctx["opens_map"][cur]
+
+    ctx["chosen_dir"] = None
+    priority_dirs = [d for d in DIRS if d in open_dirs and d != BACK_OF[ctx["heading"]]]
+    for d in priority_dirs:
+        if (cur, d) not in ctx["visited_exits"]:
+            ctx["chosen_dir"] = d
+            ctx["visited_exits"].add((cur, d))
+            break
+
+    if ctx["chosen_dir"] is None:
+        print("DECIDE_NEXT | no unvisited exits, need to backtrack")
+        ctx["state"] = State.BACKTRACK
+    else:
+        print("DECIDE_NEXT | chosen dir:", ctx["chosen_dir"])
+        ctx["state"] = State.MOVE_ONE_TILE
 
 def behavior_move_one_tile(ctx):
-    print("MOVE_ONE_TILE (placeholder) | tile", ctx["tile"])
-    ctx["state"] = State.IDLE
+
+    cur = ctx["tile"]
+    chosen = ctx["chosen_dir"]
+    turn_to_dir(ctx["robot"], ctx, chosen)
+    nxt = (cur[0] + DX[chosen], cur[1] + DY[chosen])
+    ctx["visited_exits"].add((nxt, BACK_OF[chosen]))
+    ctx["stack"].append(nxt)
+    ctx["tile"] = nxt
+    ctx["heading"] = chosen
+    print("MOVE_ONE_TILE (placeholder) | going from", cur, "->", nxt, "| heading", ctx["heading"]) 
+    log_event(ctx, "MOVE_ONE_TILE", extra={"from": list(cur), "to": list(nxt), "heading": ctx["heading"]})
+    drive_distance(ctx["robot"], ctx["left_motor"], ctx["right_motor"],ctx["left_enc"], ctx["right_enc"], ctx["timestep"], TILE_SIZE_M, FWD_SPEED)
+    ctx["state"] = State.PROBING
+    
+def behavior_backtrack(ctx):
+    if not ctx["stack"] or ctx["stack"][-1] == ctx["start_tile"]:
+        ctx["state"] = State.RETURN_TO_START
+        return
+    cur = ctx["stack"].pop()  # current tile
+    if not ctx["stack"]:
+        # popped back to start, go to decide_next to check for remaining exits
+        ctx["tile"] = ctx["start_tile"]
+        drive_distance(ctx["robot"], ctx["left_motor"], ctx["right_motor"],
+                       ctx["left_enc"], ctx["right_enc"], ctx["timestep"], TILE_SIZE_M, FWD_SPEED)
+        ctx["state"] = State.DECIDE_NEXT  # skip probing, start is already known
+        return
+    prev = ctx["stack"][-1]   # peek, don't pop - we'll pop next time we backtrack
+    
+    # compute direction toward prev from coordinates
+    dx = prev[0] - cur[0]
+    dy = prev[1] - cur[1]
+    chosen = next(d for d in DIRS if DX[d] == dx and DY[d] == dy)
+    
+    turn_to_dir(ctx["robot"], ctx, chosen)
+    ctx["heading"] = chosen
+    drive_distance(ctx["robot"], ctx["left_motor"], ctx["right_motor"],
+                   ctx["left_enc"], ctx["right_enc"], ctx["timestep"], TILE_SIZE_M, FWD_SPEED)
+    ctx["tile"] = prev
+    print("BACKTRACK | going back from", cur, "->", prev)
+    log_event(ctx, "BACKTRACK", extra={"from": list(cur), "to": list(prev)})
+    ctx["state"] = State.PROBING
 
 def behavior_return_to_start(ctx):
     print("RETURN_TO_START (placeholder)")
@@ -267,8 +379,9 @@ def main():
         "heading":     "E",
         # Maze knowledge
         "opens_map":     {},
-        "visited_tiles": set(),
+        "stack":         [],
         "visited_exits": set(),
+        "visited_tiles": set(),
         "parent":        {(0, 0): None},
         # Behavior
         "state":      State.PROBING,
@@ -290,11 +403,16 @@ def main():
         if cycle % 15 != 0:
             continue
 
+        # recalibrate between state transitions
+        #if cycle % (15 * RECALIBRATE_EVERY) == 0:
+            #recalibrate_heading(robot, ctx)
+
         st = ctx["state"]
         if   st == State.PROBING:         behavior_probing(ctx)
         elif st == State.DECIDE_NEXT:     behavior_decide_next(ctx)
         elif st == State.MOVE_ONE_TILE:   behavior_move_one_tile(ctx)
         elif st == State.RETURN_TO_START: behavior_return_to_start(ctx)
+        elif st == State.BACKTRACK:        behavior_backtrack(ctx)
         else:                             behavior_idle(ctx)
 
         t = robot.getTime()

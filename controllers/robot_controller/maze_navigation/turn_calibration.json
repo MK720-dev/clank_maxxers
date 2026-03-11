@@ -1,0 +1,527 @@
+[
+  {
+    "steps": 20,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 1.5077,
+        "integrated_deg": 86.39
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 1.5152,
+        "integrated_deg": 86.81
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 1.5102,
+        "integrated_deg": 86.53
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 1.5152,
+        "integrated_deg": 86.81
+      }
+    ]
+  },
+  {
+    "steps": 22,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 1.6637,
+        "integrated_deg": 95.32
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 1.6588,
+        "integrated_deg": 95.04
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 1.6637,
+        "integrated_deg": 95.32
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 1.6637,
+        "integrated_deg": 95.32
+      }
+    ]
+  },
+  {
+    "steps": 24,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 1.8172,
+        "integrated_deg": 104.12
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 1.8123,
+        "integrated_deg": 103.84
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 1.8172,
+        "integrated_deg": 104.12
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 1.8123,
+        "integrated_deg": 103.84
+      }
+    ]
+  },
+  {
+    "steps": 26,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 1.9658,
+        "integrated_deg": 112.63
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 1.9658,
+        "integrated_deg": 112.63
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 1.9658,
+        "integrated_deg": 112.63
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 1.9658,
+        "integrated_deg": 112.63
+      }
+    ]
+  },
+  {
+    "steps": 28,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 2.1143,
+        "integrated_deg": 121.14
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 2.1193,
+        "integrated_deg": 121.42
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 2.1143,
+        "integrated_deg": 121.14
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 2.1193,
+        "integrated_deg": 121.42
+      }
+    ]
+  },
+  {
+    "steps": 30,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 2.2678,
+        "integrated_deg": 129.94
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 2.2678,
+        "integrated_deg": 129.94
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 2.2678,
+        "integrated_deg": 129.94
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 2.2678,
+        "integrated_deg": 129.94
+      }
+    ]
+  },
+  {
+    "steps": 32,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 2.4213,
+        "integrated_deg": 138.73
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 2.4213,
+        "integrated_deg": 138.73
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 2.4164,
+        "integrated_deg": 138.45
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 2.4213,
+        "integrated_deg": 138.73
+      }
+    ]
+  },
+  {
+    "steps": 34,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 2.5698,
+        "integrated_deg": 147.24
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 2.5748,
+        "integrated_deg": 147.53
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 2.5698,
+        "integrated_deg": 147.24
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 2.5698,
+        "integrated_deg": 147.24
+      }
+    ]
+  },
+  {
+    "steps": 36,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 2.7233,
+        "integrated_deg": 156.04
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 2.7184,
+        "integrated_deg": 155.75
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 2.7233,
+        "integrated_deg": 156.04
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 2.7233,
+        "integrated_deg": 156.04
+      }
+    ]
+  },
+  {
+    "steps": 38,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 2.8719,
+        "integrated_deg": 164.55
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 2.8768,
+        "integrated_deg": 164.83
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 2.8719,
+        "integrated_deg": 164.55
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 2.8719,
+        "integrated_deg": 164.55
+      }
+    ]
+  },
+  {
+    "steps": 40,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 3.0254,
+        "integrated_deg": 173.34
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 3.0254,
+        "integrated_deg": 173.34
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 3.0254,
+        "integrated_deg": 173.34
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 3.0254,
+        "integrated_deg": 173.34
+      }
+    ]
+  },
+  {
+    "steps": 42,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 3.1739,
+        "integrated_deg": 181.85
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 3.1789,
+        "integrated_deg": 182.14
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 3.1739,
+        "integrated_deg": 181.85
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 3.1739,
+        "integrated_deg": 181.85
+      }
+    ]
+  },
+  {
+    "steps": 44,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 3.3274,
+        "integrated_deg": 190.65
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 3.3274,
+        "integrated_deg": 190.65
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 3.3274,
+        "integrated_deg": 190.65
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 3.3274,
+        "integrated_deg": 190.65
+      }
+    ]
+  },
+  {
+    "steps": 46,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 3.4809,
+        "integrated_deg": 199.44
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 3.476,
+        "integrated_deg": 199.16
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 3.4809,
+        "integrated_deg": 199.44
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 3.476,
+        "integrated_deg": 199.16
+      }
+    ]
+  },
+  {
+    "steps": 48,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 3.6295,
+        "integrated_deg": 207.95
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 3.6295,
+        "integrated_deg": 207.95
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 3.6295,
+        "integrated_deg": 207.95
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 3.6295,
+        "integrated_deg": 207.95
+      }
+    ]
+  },
+  {
+    "steps": 50,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 3.783,
+        "integrated_deg": 216.75
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 3.778,
+        "integrated_deg": 216.46
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 3.783,
+        "integrated_deg": 216.75
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 3.783,
+        "integrated_deg": 216.75
+      }
+    ]
+  },
+  {
+    "steps": 52,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 3.9315,
+        "integrated_deg": 225.26
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 3.9315,
+        "integrated_deg": 225.26
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 3.9315,
+        "integrated_deg": 225.26
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 3.9315,
+        "integrated_deg": 225.26
+      }
+    ]
+  },
+  {
+    "steps": 54,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 4.085,
+        "integrated_deg": 234.05
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 4.085,
+        "integrated_deg": 234.05
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 4.0801,
+        "integrated_deg": 233.77
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 4.085,
+        "integrated_deg": 234.05
+      }
+    ]
+  },
+  {
+    "steps": 56,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 4.2336,
+        "integrated_deg": 242.57
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 4.2336,
+        "integrated_deg": 242.57
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 4.2385,
+        "integrated_deg": 242.85
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 4.2336,
+        "integrated_deg": 242.57
+      }
+    ]
+  },
+  {
+    "steps": 58,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 4.3871,
+        "integrated_deg": 251.36
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 4.3821,
+        "integrated_deg": 251.08
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 4.3871,
+        "integrated_deg": 251.36
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 4.3871,
+        "integrated_deg": 251.36
+      }
+    ]
+  },
+  {
+    "steps": 60,
+    "turns": [
+      {
+        "turn": 1,
+        "integrated_rad": 4.5356,
+        "integrated_deg": 259.87
+      },
+      {
+        "turn": 2,
+        "integrated_rad": 4.5406,
+        "integrated_deg": 260.15
+      },
+      {
+        "turn": 3,
+        "integrated_rad": 4.5356,
+        "integrated_deg": 259.87
+      },
+      {
+        "turn": 4,
+        "integrated_rad": 4.5356,
+        "integrated_deg": 259.87
+      }
+    ]
+  }
+]

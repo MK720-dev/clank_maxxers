@@ -1,30 +1,869 @@
 {
   "meta": {
-    "time": 44755.584
+    "time": 2173.696
   },
   "start_tile": [
     0,
     0
   ],
   "tile": [
-    0,
-    0
+    5,
+    -5
   ],
-  "heading": "E",
-  "visited_tiles": [],
+  "heading": "N",
+  "visited_tiles": [
+    [
+      0,
+      -6
+    ],
+    [
+      0,
+      -5
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      -7
+    ],
+    [
+      1,
+      -6
+    ],
+    [
+      1,
+      -5
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      -7
+    ],
+    [
+      2,
+      -6
+    ],
+    [
+      2,
+      -5
+    ],
+    [
+      2,
+      -4
+    ],
+    [
+      2,
+      -3
+    ],
+    [
+      2,
+      -2
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      3,
+      -7
+    ],
+    [
+      3,
+      -5
+    ],
+    [
+      3,
+      -4
+    ],
+    [
+      3,
+      -3
+    ],
+    [
+      3,
+      -2
+    ],
+    [
+      3,
+      -1
+    ],
+    [
+      3,
+      0
+    ],
+    [
+      4,
+      -7
+    ],
+    [
+      4,
+      -6
+    ],
+    [
+      4,
+      -5
+    ],
+    [
+      4,
+      -4
+    ],
+    [
+      4,
+      -3
+    ],
+    [
+      4,
+      -2
+    ],
+    [
+      4,
+      -1
+    ],
+    [
+      4,
+      0
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      5,
+      -6
+    ],
+    [
+      5,
+      -1
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      6,
+      -1
+    ]
+  ],
   "opens_map": {
     "0,0": [
+      "E"
+    ],
+    "1,0": [
+      "E"
+    ],
+    "2,0": [
+      "S"
+    ],
+    "2,-1": [
+      "S"
+    ],
+    "2,-2": [
       "E",
+      "W"
+    ],
+    "3,-2": [
+      "N"
+    ],
+    "3,-1": [
+      "E",
+      "N"
+    ],
+    "3,0": [],
+    "4,-1": [
+      "N",
+      "S"
+    ],
+    "4,0": [
+      "E",
+      "N",
+      "W"
+    ],
+    "4,1": [
+      "E",
+      "W"
+    ],
+    "5,1": [
+      "S"
+    ],
+    "5,0": [
+      "S"
+    ],
+    "5,-1": [
+      "E",
+      "W"
+    ],
+    "6,-1": [],
+    "4,-2": [
+      "S"
+    ],
+    "4,-3": [
+      "S"
+    ],
+    "4,-4": [
+      "S"
+    ],
+    "4,-5": [
+      "W"
+    ],
+    "3,-5": [
+      "N"
+    ],
+    "3,-4": [
+      "N"
+    ],
+    "3,-3": [
+      "W"
+    ],
+    "2,-3": [
+      "S"
+    ],
+    "2,-4": [
+      "S"
+    ],
+    "2,-5": [
+      "E",
+      "S",
+      "W"
+    ],
+    "2,-6": [
+      "W"
+    ],
+    "1,-6": [
+      "N",
+      "S"
+    ],
+    "1,-5": [
+      "E",
+      "W"
+    ],
+    "0,-5": [
+      "S"
+    ],
+    "0,-6": [
+      "E",
+      "S"
+    ],
+    "1,-7": [
+      "E",
+      "W"
+    ],
+    "2,-7": [
+      "E"
+    ],
+    "3,-7": [
+      "E"
+    ],
+    "4,-7": [
+      "E",
+      "N",
+      "S"
+    ],
+    "4,-6": [
+      "E",
+      "N",
+      "W"
+    ],
+    "5,-6": [
+      "E",
+      "N",
       "S"
     ]
   },
-  "visited_exits": [],
+  "visited_exits": [
+    [
+      [
+        0,
+        -6
+      ],
+      "E"
+    ],
+    [
+      [
+        0,
+        -6
+      ],
+      "N"
+    ],
+    [
+      [
+        0,
+        -5
+      ],
+      "E"
+    ],
+    [
+      [
+        0,
+        -5
+      ],
+      "S"
+    ],
+    [
+      [
+        0,
+        0
+      ],
+      "E"
+    ],
+    [
+      [
+        1,
+        -7
+      ],
+      "E"
+    ],
+    [
+      [
+        1,
+        -7
+      ],
+      "N"
+    ],
+    [
+      [
+        1,
+        -6
+      ],
+      "E"
+    ],
+    [
+      [
+        1,
+        -6
+      ],
+      "N"
+    ],
+    [
+      [
+        1,
+        -6
+      ],
+      "S"
+    ],
+    [
+      [
+        1,
+        -6
+      ],
+      "W"
+    ],
+    [
+      [
+        1,
+        -5
+      ],
+      "E"
+    ],
+    [
+      [
+        1,
+        -5
+      ],
+      "S"
+    ],
+    [
+      [
+        1,
+        -5
+      ],
+      "W"
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      "E"
+    ],
+    [
+      [
+        1,
+        0
+      ],
+      "W"
+    ],
+    [
+      [
+        2,
+        -7
+      ],
+      "E"
+    ],
+    [
+      [
+        2,
+        -7
+      ],
+      "W"
+    ],
+    [
+      [
+        2,
+        -6
+      ],
+      "N"
+    ],
+    [
+      [
+        2,
+        -6
+      ],
+      "W"
+    ],
+    [
+      [
+        2,
+        -5
+      ],
+      "E"
+    ],
+    [
+      [
+        2,
+        -5
+      ],
+      "N"
+    ],
+    [
+      [
+        2,
+        -5
+      ],
+      "S"
+    ],
+    [
+      [
+        2,
+        -5
+      ],
+      "W"
+    ],
+    [
+      [
+        2,
+        -4
+      ],
+      "N"
+    ],
+    [
+      [
+        2,
+        -4
+      ],
+      "S"
+    ],
+    [
+      [
+        2,
+        -3
+      ],
+      "E"
+    ],
+    [
+      [
+        2,
+        -3
+      ],
+      "S"
+    ],
+    [
+      [
+        2,
+        -2
+      ],
+      "E"
+    ],
+    [
+      [
+        2,
+        -2
+      ],
+      "N"
+    ],
+    [
+      [
+        2,
+        -1
+      ],
+      "N"
+    ],
+    [
+      [
+        2,
+        -1
+      ],
+      "S"
+    ],
+    [
+      [
+        2,
+        0
+      ],
+      "S"
+    ],
+    [
+      [
+        2,
+        0
+      ],
+      "W"
+    ],
+    [
+      [
+        3,
+        -7
+      ],
+      "E"
+    ],
+    [
+      [
+        3,
+        -7
+      ],
+      "W"
+    ],
+    [
+      [
+        3,
+        -5
+      ],
+      "E"
+    ],
+    [
+      [
+        3,
+        -5
+      ],
+      "N"
+    ],
+    [
+      [
+        3,
+        -5
+      ],
+      "W"
+    ],
+    [
+      [
+        3,
+        -4
+      ],
+      "N"
+    ],
+    [
+      [
+        3,
+        -4
+      ],
+      "S"
+    ],
+    [
+      [
+        3,
+        -3
+      ],
+      "S"
+    ],
+    [
+      [
+        3,
+        -3
+      ],
+      "W"
+    ],
+    [
+      [
+        3,
+        -2
+      ],
+      "N"
+    ],
+    [
+      [
+        3,
+        -2
+      ],
+      "W"
+    ],
+    [
+      [
+        3,
+        -1
+      ],
+      "E"
+    ],
+    [
+      [
+        3,
+        -1
+      ],
+      "N"
+    ],
+    [
+      [
+        3,
+        -1
+      ],
+      "S"
+    ],
+    [
+      [
+        3,
+        0
+      ],
+      "S"
+    ],
+    [
+      [
+        4,
+        -7
+      ],
+      "N"
+    ],
+    [
+      [
+        4,
+        -7
+      ],
+      "W"
+    ],
+    [
+      [
+        4,
+        -6
+      ],
+      "E"
+    ],
+    [
+      [
+        4,
+        -6
+      ],
+      "N"
+    ],
+    [
+      [
+        4,
+        -6
+      ],
+      "S"
+    ],
+    [
+      [
+        4,
+        -5
+      ],
+      "N"
+    ],
+    [
+      [
+        4,
+        -5
+      ],
+      "S"
+    ],
+    [
+      [
+        4,
+        -5
+      ],
+      "W"
+    ],
+    [
+      [
+        4,
+        -4
+      ],
+      "N"
+    ],
+    [
+      [
+        4,
+        -4
+      ],
+      "S"
+    ],
+    [
+      [
+        4,
+        -3
+      ],
+      "N"
+    ],
+    [
+      [
+        4,
+        -3
+      ],
+      "S"
+    ],
+    [
+      [
+        4,
+        -2
+      ],
+      "N"
+    ],
+    [
+      [
+        4,
+        -2
+      ],
+      "S"
+    ],
+    [
+      [
+        4,
+        -1
+      ],
+      "E"
+    ],
+    [
+      [
+        4,
+        -1
+      ],
+      "N"
+    ],
+    [
+      [
+        4,
+        -1
+      ],
+      "S"
+    ],
+    [
+      [
+        4,
+        -1
+      ],
+      "W"
+    ],
+    [
+      [
+        4,
+        0
+      ],
+      "N"
+    ],
+    [
+      [
+        4,
+        0
+      ],
+      "S"
+    ],
+    [
+      [
+        4,
+        1
+      ],
+      "E"
+    ],
+    [
+      [
+        4,
+        1
+      ],
+      "S"
+    ],
+    [
+      [
+        5,
+        -6
+      ],
+      "N"
+    ],
+    [
+      [
+        5,
+        -6
+      ],
+      "W"
+    ],
+    [
+      [
+        5,
+        -5
+      ],
+      "S"
+    ],
+    [
+      [
+        5,
+        -1
+      ],
+      "E"
+    ],
+    [
+      [
+        5,
+        -1
+      ],
+      "N"
+    ],
+    [
+      [
+        5,
+        -1
+      ],
+      "W"
+    ],
+    [
+      [
+        5,
+        0
+      ],
+      "N"
+    ],
+    [
+      [
+        5,
+        0
+      ],
+      "S"
+    ],
+    [
+      [
+        5,
+        1
+      ],
+      "S"
+    ],
+    [
+      [
+        5,
+        1
+      ],
+      "W"
+    ],
+    [
+      [
+        6,
+        -1
+      ],
+      "W"
+    ]
+  ],
   "parent": {
     "0,0": null
   },
   "events": [
     {
-      "t": 17.184,
+      "t": 24.672,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -34,15 +873,1860 @@
       "heading": "E",
       "extra": {
         "opens": [
+          "E"
+        ],
+        "readings": {
+          "S": 1402.7,
+          "N": 320.8,
+          "E": 64.5
+        }
+      }
+    },
+    {
+      "t": 25.632,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        1,
+        0
+      ],
+      "heading": "E",
+      "extra": {
+        "from": [
+          0,
+          0
+        ],
+        "to": [
+          1,
+          0
+        ],
+        "heading": "E"
+      }
+    },
+    {
+      "t": 53.056000000000004,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        1,
+        0
+      ],
+      "heading": "E",
+      "extra": {
+        "opens": [
+          "E"
+        ],
+        "readings": {
+          "S": 1342.2,
+          "N": 325.8,
+          "E": 69.9
+        }
+      }
+    },
+    {
+      "t": 97.792,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        2,
+        0
+      ],
+      "heading": "E",
+      "extra": {
+        "from": [
+          1,
+          0
+        ],
+        "to": [
+          2,
+          0
+        ],
+        "heading": "E"
+      }
+    },
+    {
+      "t": 125.21600000000001,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        2,
+        0
+      ],
+      "heading": "E",
+      "extra": {
+        "opens": [
+          "S"
+        ],
+        "readings": {
+          "S": 71.3,
+          "N": 251.1,
+          "E": 316.0
+        }
+      }
+    },
+    {
+      "t": 130.656,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        2,
+        -1
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          2,
+          0
+        ],
+        "to": [
+          2,
+          -1
+        ],
+        "heading": "S"
+      }
+    },
+    {
+      "t": 158.08,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        2,
+        -1
+      ],
+      "heading": "S",
+      "extra": {
+        "opens": [
+          "S"
+        ],
+        "readings": {
+          "W": 1161.4,
+          "E": 305.0,
+          "S": 70.2
+        }
+      }
+    },
+    {
+      "t": 159.04,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        2,
+        -2
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          2,
+          -1
+        ],
+        "to": [
+          2,
+          -2
+        ],
+        "heading": "S"
+      }
+    },
+    {
+      "t": 186.464,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        2,
+        -2
+      ],
+      "heading": "S",
+      "extra": {
+        "opens": [
+          "E",
+          "W"
+        ],
+        "readings": {
+          "W": 71.7,
+          "E": 66.3,
+          "S": 340.9
+        }
+      }
+    },
+    {
+      "t": 235.68,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        3,
+        -2
+      ],
+      "heading": "E",
+      "extra": {
+        "from": [
+          2,
+          -2
+        ],
+        "to": [
+          3,
+          -2
+        ],
+        "heading": "E"
+      }
+    },
+    {
+      "t": 263.104,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        3,
+        -2
+      ],
+      "heading": "E",
+      "extra": {
+        "opens": [
+          "N"
+        ],
+        "readings": {
+          "S": 851.2,
+          "N": 65.6,
+          "E": 142.9
+        }
+      }
+    },
+    {
+      "t": 268.544,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        3,
+        -1
+      ],
+      "heading": "N",
+      "extra": {
+        "from": [
+          3,
+          -2
+        ],
+        "to": [
+          3,
+          -1
+        ],
+        "heading": "N"
+      }
+    },
+    {
+      "t": 295.968,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        3,
+        -1
+      ],
+      "heading": "N",
+      "extra": {
+        "opens": [
+          "E",
+          "N"
+        ],
+        "readings": {
+          "E": 67.9,
+          "W": 494.8,
+          "N": 71.9
+        }
+      }
+    },
+    {
+      "t": 340.704,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        3,
+        0
+      ],
+      "heading": "N",
+      "extra": {
+        "from": [
+          3,
+          -1
+        ],
+        "to": [
+          3,
+          0
+        ],
+        "heading": "N"
+      }
+    },
+    {
+      "t": 368.128,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        3,
+        0
+      ],
+      "heading": "N",
+      "extra": {
+        "opens": [],
+        "readings": {
+          "E": 1275.1,
+          "W": 310.3,
+          "N": 148.8
+        }
+      }
+    },
+    {
+      "t": 381.12,
+      "tag": "BACKTRACK",
+      "state": "BACKTRACK",
+      "tile": [
+        3,
+        -1
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          3,
+          0
+        ],
+        "to": [
+          3,
+          -1
+        ]
+      }
+    },
+    {
+      "t": 425.37600000000003,
+      "tag": "PROBING_SKIP",
+      "state": "PROBING",
+      "tile": [
+        3,
+        -1
+      ],
+      "heading": "S",
+      "extra": {
+        "reason": "already known",
+        "opens": [
+          "E",
+          "N"
+        ]
+      }
+    },
+    {
+      "t": 430.81600000000003,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        4,
+        -1
+      ],
+      "heading": "E",
+      "extra": {
+        "from": [
+          3,
+          -1
+        ],
+        "to": [
+          4,
+          -1
+        ],
+        "heading": "E"
+      }
+    },
+    {
+      "t": 458.24,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        4,
+        -1
+      ],
+      "heading": "E",
+      "extra": {
+        "opens": [
+          "N",
+          "S"
+        ],
+        "readings": {
+          "S": 68.4,
+          "N": 67.3,
+          "E": 182.9
+        }
+      }
+    },
+    {
+      "t": 507.456,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        4,
+        0
+      ],
+      "heading": "N",
+      "extra": {
+        "from": [
+          4,
+          -1
+        ],
+        "to": [
+          4,
+          0
+        ],
+        "heading": "N"
+      }
+    },
+    {
+      "t": 534.88,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        4,
+        0
+      ],
+      "heading": "N",
+      "extra": {
+        "opens": [
+          "E",
+          "N",
+          "W"
+        ],
+        "readings": {
+          "E": 62.8,
+          "W": 66.9,
+          "N": 72.2
+        }
+      }
+    },
+    {
+      "t": 535.84,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        4,
+        1
+      ],
+      "heading": "N",
+      "extra": {
+        "from": [
+          4,
+          0
+        ],
+        "to": [
+          4,
+          1
+        ],
+        "heading": "N"
+      }
+    },
+    {
+      "t": 563.264,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        4,
+        1
+      ],
+      "heading": "N",
+      "extra": {
+        "opens": [
+          "E",
+          "W"
+        ],
+        "readings": {
+          "E": 66.9,
+          "W": 71.6,
+          "N": 1582.1
+        }
+      }
+    },
+    {
+      "t": 612.48,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        5,
+        1
+      ],
+      "heading": "E",
+      "extra": {
+        "from": [
+          4,
+          1
+        ],
+        "to": [
+          5,
+          1
+        ],
+        "heading": "E"
+      }
+    },
+    {
+      "t": 639.904,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        5,
+        1
+      ],
+      "heading": "E",
+      "extra": {
+        "opens": [
+          "S"
+        ],
+        "readings": {
+          "S": 68.0,
+          "N": 104.4,
+          "E": 1588.4
+        }
+      }
+    },
+    {
+      "t": 645.344,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        5,
+        0
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          5,
+          1
+        ],
+        "to": [
+          5,
+          0
+        ],
+        "heading": "S"
+      }
+    },
+    {
+      "t": 672.768,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        5,
+        0
+      ],
+      "heading": "S",
+      "extra": {
+        "opens": [
+          "S"
+        ],
+        "readings": {
+          "W": 1599.1,
+          "E": 219.8,
+          "S": 69.6
+        }
+      }
+    },
+    {
+      "t": 673.7280000000001,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        5,
+        -1
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          5,
+          0
+        ],
+        "to": [
+          5,
+          -1
+        ],
+        "heading": "S"
+      }
+    },
+    {
+      "t": 701.152,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        5,
+        -1
+      ],
+      "heading": "S",
+      "extra": {
+        "opens": [
+          "E",
+          "W"
+        ],
+        "readings": {
+          "W": 63.7,
+          "E": 68.4,
+          "S": 1585.5
+        }
+      }
+    },
+    {
+      "t": 750.368,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        6,
+        -1
+      ],
+      "heading": "E",
+      "extra": {
+        "from": [
+          5,
+          -1
+        ],
+        "to": [
+          6,
+          -1
+        ],
+        "heading": "E"
+      }
+    },
+    {
+      "t": 777.792,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        6,
+        -1
+      ],
+      "heading": "E",
+      "extra": {
+        "opens": [],
+        "readings": {
+          "S": 1609.8,
+          "N": 100.1,
+          "E": 1582.3
+        }
+      }
+    },
+    {
+      "t": 790.784,
+      "tag": "BACKTRACK",
+      "state": "BACKTRACK",
+      "tile": [
+        5,
+        -1
+      ],
+      "heading": "W",
+      "extra": {
+        "from": [
+          6,
+          -1
+        ],
+        "to": [
+          5,
+          -1
+        ]
+      }
+    },
+    {
+      "t": 791.264,
+      "tag": "PROBING_SKIP",
+      "state": "PROBING",
+      "tile": [
+        5,
+        -1
+      ],
+      "heading": "W",
+      "extra": {
+        "reason": "already known",
+        "opens": [
+          "E",
+          "W"
+        ]
+      }
+    },
+    {
+      "t": 836.0,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        4,
+        -1
+      ],
+      "heading": "W",
+      "extra": {
+        "from": [
+          5,
+          -1
+        ],
+        "to": [
+          4,
+          -1
+        ],
+        "heading": "W"
+      }
+    },
+    {
+      "t": 839.552,
+      "tag": "PROBING_SKIP",
+      "state": "PROBING",
+      "tile": [
+        4,
+        -1
+      ],
+      "heading": "W",
+      "extra": {
+        "reason": "already known",
+        "opens": [
+          "N",
+          "S"
+        ]
+      }
+    },
+    {
+      "t": 844.992,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        4,
+        -2
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          4,
+          -1
+        ],
+        "to": [
+          4,
+          -2
+        ],
+        "heading": "S"
+      }
+    },
+    {
+      "t": 872.416,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        4,
+        -2
+      ],
+      "heading": "S",
+      "extra": {
+        "opens": [
+          "S"
+        ],
+        "readings": {
+          "W": 1623.4,
+          "E": 218.7,
+          "S": 71.0
+        }
+      }
+    },
+    {
+      "t": 873.376,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        4,
+        -3
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          4,
+          -2
+        ],
+        "to": [
+          4,
+          -3
+        ],
+        "heading": "S"
+      }
+    },
+    {
+      "t": 900.8000000000001,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        4,
+        -3
+      ],
+      "heading": "S",
+      "extra": {
+        "opens": [
+          "S"
+        ],
+        "readings": {
+          "W": 1606.5,
+          "E": 231.4,
+          "S": 71.1
+        }
+      }
+    },
+    {
+      "t": 945.5360000000001,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        4,
+        -4
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          4,
+          -3
+        ],
+        "to": [
+          4,
+          -4
+        ],
+        "heading": "S"
+      }
+    },
+    {
+      "t": 972.96,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        4,
+        -4
+      ],
+      "heading": "S",
+      "extra": {
+        "opens": [
+          "S"
+        ],
+        "readings": {
+          "W": 1606.6,
+          "E": 210.6,
+          "S": 65.5
+        }
+      }
+    },
+    {
+      "t": 973.9200000000001,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        4,
+        -5
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          4,
+          -4
+        ],
+        "to": [
+          4,
+          -5
+        ],
+        "heading": "S"
+      }
+    },
+    {
+      "t": 1001.344,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        4,
+        -5
+      ],
+      "heading": "S",
+      "extra": {
+        "opens": [
+          "W"
+        ],
+        "readings": {
+          "W": 67.9,
+          "E": 116.6,
+          "S": 1603.6
+        }
+      }
+    },
+    {
+      "t": 1050.56,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        3,
+        -5
+      ],
+      "heading": "W",
+      "extra": {
+        "from": [
+          4,
+          -5
+        ],
+        "to": [
+          3,
+          -5
+        ],
+        "heading": "W"
+      }
+    },
+    {
+      "t": 1077.984,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        3,
+        -5
+      ],
+      "heading": "W",
+      "extra": {
+        "opens": [
+          "N"
+        ],
+        "readings": {
+          "N": 72.0,
+          "S": 111.5,
+          "W": 1597.6
+        }
+      }
+    },
+    {
+      "t": 1083.424,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        3,
+        -4
+      ],
+      "heading": "N",
+      "extra": {
+        "from": [
+          3,
+          -5
+        ],
+        "to": [
+          3,
+          -4
+        ],
+        "heading": "N"
+      }
+    },
+    {
+      "t": 1110.848,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        3,
+        -4
+      ],
+      "heading": "N",
+      "extra": {
+        "opens": [
+          "N"
+        ],
+        "readings": {
+          "E": 1616.9,
+          "W": 216.6,
+          "N": 72.0
+        }
+      }
+    },
+    {
+      "t": 1111.808,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        3,
+        -3
+      ],
+      "heading": "N",
+      "extra": {
+        "from": [
+          3,
+          -4
+        ],
+        "to": [
+          3,
+          -3
+        ],
+        "heading": "N"
+      }
+    },
+    {
+      "t": 1139.232,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        3,
+        -3
+      ],
+      "heading": "N",
+      "extra": {
+        "opens": [
+          "W"
+        ],
+        "readings": {
+          "E": 1604.0,
+          "W": 70.2,
+          "N": 1614.5
+        }
+      }
+    },
+    {
+      "t": 1188.448,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        2,
+        -3
+      ],
+      "heading": "W",
+      "extra": {
+        "from": [
+          3,
+          -3
+        ],
+        "to": [
+          2,
+          -3
+        ],
+        "heading": "W"
+      }
+    },
+    {
+      "t": 1215.872,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        2,
+        -3
+      ],
+      "heading": "W",
+      "extra": {
+        "opens": [
+          "S"
+        ],
+        "readings": {
+          "N": 1583.0,
+          "S": 68.9,
+          "W": 105.3
+        }
+      }
+    },
+    {
+      "t": 1221.3120000000001,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        2,
+        -4
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          2,
+          -3
+        ],
+        "to": [
+          2,
+          -4
+        ],
+        "heading": "S"
+      }
+    },
+    {
+      "t": 1248.736,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        2,
+        -4
+      ],
+      "heading": "S",
+      "extra": {
+        "opens": [
+          "S"
+        ],
+        "readings": {
+          "W": 1601.9,
+          "E": 231.1,
+          "S": 69.1
+        }
+      }
+    },
+    {
+      "t": 1293.472,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        2,
+        -5
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          2,
+          -4
+        ],
+        "to": [
+          2,
+          -5
+        ],
+        "heading": "S"
+      }
+    },
+    {
+      "t": 1320.896,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        2,
+        -5
+      ],
+      "heading": "S",
+      "extra": {
+        "opens": [
+          "E",
+          "S",
+          "W"
+        ],
+        "readings": {
+          "W": 67.2,
+          "E": 69.0,
+          "S": 67.2
+        }
+      }
+    },
+    {
+      "t": 1326.336,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        3,
+        -5
+      ],
+      "heading": "E",
+      "extra": {
+        "from": [
+          2,
+          -5
+        ],
+        "to": [
+          3,
+          -5
+        ],
+        "heading": "E"
+      }
+    },
+    {
+      "t": 1373.664,
+      "tag": "PROBING_SKIP",
+      "state": "PROBING",
+      "tile": [
+        3,
+        -5
+      ],
+      "heading": "N",
+      "extra": {
+        "reason": "already known",
+        "opens": [
+          "N"
+        ]
+      }
+    },
+    {
+      "t": 1382.176,
+      "tag": "BACKTRACK",
+      "state": "BACKTRACK",
+      "tile": [
+        2,
+        -5
+      ],
+      "heading": "W",
+      "extra": {
+        "from": [
+          3,
+          -5
+        ],
+        "to": [
+          2,
+          -5
+        ]
+      }
+    },
+    {
+      "t": 1382.656,
+      "tag": "PROBING_SKIP",
+      "state": "PROBING",
+      "tile": [
+        2,
+        -5
+      ],
+      "heading": "W",
+      "extra": {
+        "reason": "already known",
+        "opens": [
+          "E",
+          "S",
+          "W"
+        ]
+      }
+    },
+    {
+      "t": 1431.872,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        2,
+        -6
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          2,
+          -5
+        ],
+        "to": [
+          2,
+          -6
+        ],
+        "heading": "S"
+      }
+    },
+    {
+      "t": 1459.296,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        2,
+        -6
+      ],
+      "heading": "S",
+      "extra": {
+        "opens": [
+          "W"
+        ],
+        "readings": {
+          "W": 67.9,
+          "E": 97.3,
+          "S": 1586.0
+        }
+      }
+    },
+    {
+      "t": 1464.736,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        1,
+        -6
+      ],
+      "heading": "W",
+      "extra": {
+        "from": [
+          2,
+          -6
+        ],
+        "to": [
+          1,
+          -6
+        ],
+        "heading": "W"
+      }
+    },
+    {
+      "t": 1492.16,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        1,
+        -6
+      ],
+      "heading": "W",
+      "extra": {
+        "opens": [
+          "N",
+          "S"
+        ],
+        "readings": {
+          "N": 67.4,
+          "S": 65.7,
+          "W": 1592.0
+        }
+      }
+    },
+    {
+      "t": 1541.376,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        1,
+        -5
+      ],
+      "heading": "N",
+      "extra": {
+        "from": [
+          1,
+          -6
+        ],
+        "to": [
+          1,
+          -5
+        ],
+        "heading": "N"
+      }
+    },
+    {
+      "t": 1568.8,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        1,
+        -5
+      ],
+      "heading": "N",
+      "extra": {
+        "opens": [
+          "E",
+          "W"
+        ],
+        "readings": {
+          "E": 65.8,
+          "W": 70.7,
+          "N": 1607.4
+        }
+      }
+    },
+    {
+      "t": 1574.24,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        2,
+        -5
+      ],
+      "heading": "E",
+      "extra": {
+        "from": [
+          1,
+          -5
+        ],
+        "to": [
+          2,
+          -5
+        ],
+        "heading": "E"
+      }
+    },
+    {
+      "t": 1621.568,
+      "tag": "PROBING_SKIP",
+      "state": "PROBING",
+      "tile": [
+        2,
+        -5
+      ],
+      "heading": "W",
+      "extra": {
+        "reason": "already known",
+        "opens": [
+          "E",
+          "S",
+          "W"
+        ]
+      }
+    },
+    {
+      "t": 1625.6000000000001,
+      "tag": "BACKTRACK",
+      "state": "BACKTRACK",
+      "tile": [
+        1,
+        -5
+      ],
+      "heading": "W",
+      "extra": {
+        "from": [
+          2,
+          -5
+        ],
+        "to": [
+          1,
+          -5
+        ]
+      }
+    },
+    {
+      "t": 1626.08,
+      "tag": "PROBING_SKIP",
+      "state": "PROBING",
+      "tile": [
+        1,
+        -5
+      ],
+      "heading": "W",
+      "extra": {
+        "reason": "already known",
+        "opens": [
+          "E",
+          "W"
+        ]
+      }
+    },
+    {
+      "t": 1670.816,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        0,
+        -5
+      ],
+      "heading": "W",
+      "extra": {
+        "from": [
+          1,
+          -5
+        ],
+        "to": [
+          0,
+          -5
+        ],
+        "heading": "W"
+      }
+    },
+    {
+      "t": 1698.24,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        0,
+        -5
+      ],
+      "heading": "W",
+      "extra": {
+        "opens": [
+          "S"
+        ],
+        "readings": {
+          "N": 1564.6,
+          "S": 81.9,
+          "W": 1586.8
+        }
+      }
+    },
+    {
+      "t": 1703.68,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        0,
+        -6
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          0,
+          -5
+        ],
+        "to": [
+          0,
+          -6
+        ],
+        "heading": "S"
+      }
+    },
+    {
+      "t": 1731.104,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        0,
+        -6
+      ],
+      "heading": "S",
+      "extra": {
+        "opens": [
           "E",
           "S"
         ],
         "readings": {
-          "N": 222.2,
-          "E": 67.2,
-          "S": 67.8,
-          "W": 263.8
+          "W": 1572.5,
+          "E": 69.2,
+          "S": 67.1
         }
+      }
+    },
+    {
+      "t": 1780.32,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        1,
+        -6
+      ],
+      "heading": "E",
+      "extra": {
+        "from": [
+          0,
+          -6
+        ],
+        "to": [
+          1,
+          -6
+        ],
+        "heading": "E"
+      }
+    },
+    {
+      "t": 1783.872,
+      "tag": "PROBING_SKIP",
+      "state": "PROBING",
+      "tile": [
+        1,
+        -6
+      ],
+      "heading": "E",
+      "extra": {
+        "reason": "already known",
+        "opens": [
+          "N",
+          "S"
+        ]
+      }
+    },
+    {
+      "t": 1789.3120000000001,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        1,
+        -7
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          1,
+          -6
+        ],
+        "to": [
+          1,
+          -7
+        ],
+        "heading": "S"
+      }
+    },
+    {
+      "t": 1816.736,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        1,
+        -7
+      ],
+      "heading": "S",
+      "extra": {
+        "opens": [
+          "E",
+          "W"
+        ],
+        "readings": {
+          "W": 69.1,
+          "E": 93.1,
+          "S": 1584.4
+        }
+      }
+    },
+    {
+      "t": 1822.176,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        2,
+        -7
+      ],
+      "heading": "E",
+      "extra": {
+        "from": [
+          1,
+          -7
+        ],
+        "to": [
+          2,
+          -7
+        ],
+        "heading": "E"
+      }
+    },
+    {
+      "t": 1849.6000000000001,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        2,
+        -7
+      ],
+      "heading": "E",
+      "extra": {
+        "opens": [
+          "E"
+        ],
+        "readings": {
+          "S": 1565.6,
+          "N": 251.5,
+          "E": 70.6
+        }
+      }
+    },
+    {
+      "t": 1894.336,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        3,
+        -7
+      ],
+      "heading": "E",
+      "extra": {
+        "from": [
+          2,
+          -7
+        ],
+        "to": [
+          3,
+          -7
+        ],
+        "heading": "E"
+      }
+    },
+    {
+      "t": 1921.76,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        3,
+        -7
+      ],
+      "heading": "E",
+      "extra": {
+        "opens": [
+          "E"
+        ],
+        "readings": {
+          "S": 1611.1,
+          "N": 190.1,
+          "E": 68.2
+        }
+      }
+    },
+    {
+      "t": 1922.72,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        4,
+        -7
+      ],
+      "heading": "E",
+      "extra": {
+        "from": [
+          3,
+          -7
+        ],
+        "to": [
+          4,
+          -7
+        ],
+        "heading": "E"
+      }
+    },
+    {
+      "t": 1950.144,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        4,
+        -7
+      ],
+      "heading": "E",
+      "extra": {
+        "opens": [
+          "E",
+          "N",
+          "S"
+        ],
+        "readings": {
+          "S": 68.5,
+          "N": 70.8,
+          "E": 69.4
+        }
+      }
+    },
+    {
+      "t": 1999.3600000000001,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        4,
+        -6
+      ],
+      "heading": "N",
+      "extra": {
+        "from": [
+          4,
+          -7
+        ],
+        "to": [
+          4,
+          -6
+        ],
+        "heading": "N"
+      }
+    },
+    {
+      "t": 2026.784,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        4,
+        -6
+      ],
+      "heading": "N",
+      "extra": {
+        "opens": [
+          "E",
+          "N",
+          "W"
+        ],
+        "readings": {
+          "E": 70.7,
+          "W": 71.7,
+          "N": 62.4
+        }
+      }
+    },
+    {
+      "t": 2027.7440000000001,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        4,
+        -5
+      ],
+      "heading": "N",
+      "extra": {
+        "from": [
+          4,
+          -6
+        ],
+        "to": [
+          4,
+          -5
+        ],
+        "heading": "N"
+      }
+    },
+    {
+      "t": 2075.072,
+      "tag": "PROBING_SKIP",
+      "state": "PROBING",
+      "tile": [
+        4,
+        -5
+      ],
+      "heading": "N",
+      "extra": {
+        "reason": "already known",
+        "opens": [
+          "W"
+        ]
+      }
+    },
+    {
+      "t": 2088.064,
+      "tag": "BACKTRACK",
+      "state": "BACKTRACK",
+      "tile": [
+        4,
+        -6
+      ],
+      "heading": "S",
+      "extra": {
+        "from": [
+          4,
+          -5
+        ],
+        "to": [
+          4,
+          -6
+        ]
+      }
+    },
+    {
+      "t": 2088.544,
+      "tag": "PROBING_SKIP",
+      "state": "PROBING",
+      "tile": [
+        4,
+        -6
+      ],
+      "heading": "S",
+      "extra": {
+        "reason": "already known",
+        "opens": [
+          "E",
+          "N",
+          "W"
+        ]
+      }
+    },
+    {
+      "t": 2137.76,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        5,
+        -6
+      ],
+      "heading": "E",
+      "extra": {
+        "from": [
+          4,
+          -6
+        ],
+        "to": [
+          5,
+          -6
+        ],
+        "heading": "E"
+      }
+    },
+    {
+      "t": 2165.184,
+      "tag": "PROBING",
+      "state": "PROBING",
+      "tile": [
+        5,
+        -6
+      ],
+      "heading": "E",
+      "extra": {
+        "opens": [
+          "E",
+          "N",
+          "S"
+        ],
+        "readings": {
+          "S": 69.5,
+          "N": 69.9,
+          "E": 66.8
+        }
+      }
+    },
+    {
+      "t": 2170.6240000000003,
+      "tag": "MOVE_ONE_TILE",
+      "state": "MOVE_ONE_TILE",
+      "tile": [
+        5,
+        -5
+      ],
+      "heading": "N",
+      "extra": {
+        "from": [
+          5,
+          -6
+        ],
+        "to": [
+          5,
+          -5
+        ],
+        "heading": "N"
       }
     }
   ]

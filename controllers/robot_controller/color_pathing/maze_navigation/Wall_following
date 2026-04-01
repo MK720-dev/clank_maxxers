@@ -92,7 +92,7 @@ def detect_green_position():
     center_ratio = region_green(center_x0,center_x1)
     right_ratio = region_green(right_x0,right_x1)
 
-    threshold = 0.80
+    threshold = 0.50
 
     max_ratio = max(left_ratio,center_ratio,right_ratio)
 

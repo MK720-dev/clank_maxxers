@@ -1,76 +1,24 @@
 {
   "meta": {
-    "time": 1445.92
+    "time": 479.584
   },
   "start_tile": [
     0,
     0
   ],
   "tile": [
-    0,
-    0
+    4,
+    -3
   ],
-  "heading": "W",
+  "heading": "S",
   "visited_tiles": [
     [
       0,
-      -5
-    ],
-    [
-      0,
-      -4
-    ],
-    [
-      0,
-      -3
-    ],
-    [
-      0,
-      -2
-    ],
-    [
-      0,
-      -1
-    ],
-    [
-      0,
       0
     ],
     [
       1,
-      -5
-    ],
-    [
-      1,
-      -4
-    ],
-    [
-      1,
-      -3
-    ],
-    [
-      1,
-      -2
-    ],
-    [
-      1,
-      -1
-    ],
-    [
-      1,
       0
-    ],
-    [
-      2,
-      -5
-    ],
-    [
-      2,
-      -4
-    ],
-    [
-      2,
-      -3
     ],
     [
       2,
@@ -86,18 +34,6 @@
     ],
     [
       3,
-      -5
-    ],
-    [
-      3,
-      -4
-    ],
-    [
-      3,
-      -3
-    ],
-    [
-      3,
       -2
     ],
     [
@@ -110,18 +46,6 @@
     ],
     [
       4,
-      -5
-    ],
-    [
-      4,
-      -4
-    ],
-    [
-      4,
-      -3
-    ],
-    [
-      4,
       -2
     ],
     [
@@ -131,18 +55,6 @@
     [
       4,
       0
-    ],
-    [
-      5,
-      -5
-    ],
-    [
-      5,
-      -4
-    ],
-    [
-      5,
-      -3
     ],
     [
       5,
@@ -203,198 +115,17 @@
       "S"
     ],
     "4,-3": [
-      "S"
-    ],
-    "4,-4": [
-      "S"
-    ],
-    "4,-5": [
       "E",
-      "W"
-    ],
-    "5,-5": [
-      "N"
-    ],
-    "5,-4": [
-      "N"
-    ],
-    "5,-3": [],
-    "3,-5": [
-      "N"
-    ],
-    "3,-4": [
-      "N"
-    ],
-    "3,-3": [
-      "W"
-    ],
-    "2,-3": [
       "S"
-    ],
-    "2,-4": [
-      "S"
-    ],
-    "2,-5": [
-      "W"
-    ],
-    "1,-5": [
-      "N"
-    ],
-    "1,-4": [
-      "N",
-      "W"
-    ],
-    "1,-3": [],
-    "0,-4": [
-      "N",
-      "S"
-    ],
-    "0,-3": [
-      "N"
-    ],
-    "0,-2": [],
-    "0,-5": [],
-    "1,-2": [
-      "N"
-    ],
-    "1,-1": [
-      "W"
-    ],
-    "0,-1": []
+    ]
   },
   "visited_exits": [
     [
       [
         0,
-        -5
-      ],
-      "N"
-    ],
-    [
-      [
-        0,
-        -4
-      ],
-      "E"
-    ],
-    [
-      [
-        0,
-        -4
-      ],
-      "N"
-    ],
-    [
-      [
-        0,
-        -4
-      ],
-      "S"
-    ],
-    [
-      [
-        0,
-        -3
-      ],
-      "N"
-    ],
-    [
-      [
-        0,
-        -3
-      ],
-      "S"
-    ],
-    [
-      [
-        0,
-        -2
-      ],
-      "S"
-    ],
-    [
-      [
-        0,
-        -1
-      ],
-      "E"
-    ],
-    [
-      [
-        0,
         0
       ],
       "E"
-    ],
-    [
-      [
-        1,
-        -5
-      ],
-      "E"
-    ],
-    [
-      [
-        1,
-        -5
-      ],
-      "N"
-    ],
-    [
-      [
-        1,
-        -4
-      ],
-      "N"
-    ],
-    [
-      [
-        1,
-        -4
-      ],
-      "S"
-    ],
-    [
-      [
-        1,
-        -4
-      ],
-      "W"
-    ],
-    [
-      [
-        1,
-        -3
-      ],
-      "S"
-    ],
-    [
-      [
-        1,
-        -2
-      ],
-      "E"
-    ],
-    [
-      [
-        1,
-        -2
-      ],
-      "N"
-    ],
-    [
-      [
-        1,
-        -1
-      ],
-      "S"
-    ],
-    [
-      [
-        1,
-        -1
-      ],
-      "W"
     ],
     [
       [
@@ -413,48 +144,6 @@
     [
       [
         2,
-        -5
-      ],
-      "N"
-    ],
-    [
-      [
-        2,
-        -5
-      ],
-      "W"
-    ],
-    [
-      [
-        2,
-        -4
-      ],
-      "N"
-    ],
-    [
-      [
-        2,
-        -4
-      ],
-      "S"
-    ],
-    [
-      [
-        2,
-        -3
-      ],
-      "E"
-    ],
-    [
-      [
-        2,
-        -3
-      ],
-      "S"
-    ],
-    [
-      [
-        2,
         -2
       ],
       "E"
@@ -465,13 +154,6 @@
         -2
       ],
       "N"
-    ],
-    [
-      [
-        2,
-        -2
-      ],
-      "W"
     ],
     [
       [
@@ -498,48 +180,6 @@
       [
         2,
         0
-      ],
-      "W"
-    ],
-    [
-      [
-        3,
-        -5
-      ],
-      "E"
-    ],
-    [
-      [
-        3,
-        -5
-      ],
-      "N"
-    ],
-    [
-      [
-        3,
-        -4
-      ],
-      "N"
-    ],
-    [
-      [
-        3,
-        -4
-      ],
-      "S"
-    ],
-    [
-      [
-        3,
-        -3
-      ],
-      "S"
-    ],
-    [
-      [
-        3,
-        -3
       ],
       "W"
     ],
@@ -588,51 +228,9 @@
     [
       [
         4,
-        -5
-      ],
-      "E"
-    ],
-    [
-      [
-        4,
-        -5
-      ],
-      "N"
-    ],
-    [
-      [
-        4,
-        -5
-      ],
-      "W"
-    ],
-    [
-      [
-        4,
-        -4
-      ],
-      "N"
-    ],
-    [
-      [
-        4,
-        -4
-      ],
-      "S"
-    ],
-    [
-      [
-        4,
         -3
       ],
       "N"
-    ],
-    [
-      [
-        4,
-        -3
-      ],
-      "S"
     ],
     [
       [
@@ -687,41 +285,6 @@
       [
         4,
         0
-      ],
-      "S"
-    ],
-    [
-      [
-        5,
-        -5
-      ],
-      "N"
-    ],
-    [
-      [
-        5,
-        -5
-      ],
-      "W"
-    ],
-    [
-      [
-        5,
-        -4
-      ],
-      "N"
-    ],
-    [
-      [
-        5,
-        -4
-      ],
-      "S"
-    ],
-    [
-      [
-        5,
-        -3
       ],
       "S"
     ],
@@ -773,7 +336,7 @@
   },
   "events": [
     {
-      "t": 24.672,
+      "t": 23.456,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -786,14 +349,14 @@
           "E"
         ],
         "readings": {
-          "S": 1402.7,
-          "N": 320.8,
-          "E": 64.5
+          "S": 0.0,
+          "N": 0.0,
+          "E": 0.0
         }
       }
     },
     {
-      "t": 25.632,
+      "t": 24.416,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -814,7 +377,7 @@
       }
     },
     {
-      "t": 53.056000000000004,
+      "t": 50.624,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -827,14 +390,14 @@
           "E"
         ],
         "readings": {
-          "S": 1342.2,
-          "N": 325.8,
-          "E": 69.9
+          "S": 0.0,
+          "N": 0.0,
+          "E": 0.0
         }
       }
     },
     {
-      "t": 54.016,
+      "t": 51.584,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -855,7 +418,7 @@
       }
     },
     {
-      "t": 81.44,
+      "t": 78.272,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -868,14 +431,14 @@
           "S"
         ],
         "readings": {
-          "S": 68.8,
-          "N": 330.4,
-          "E": 310.2
+          "S": 0.0,
+          "N": 0.0,
+          "E": 0.0
         }
       }
     },
     {
-      "t": 86.88,
+      "t": 83.712,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -896,7 +459,7 @@
       }
     },
     {
-      "t": 114.304,
+      "t": 109.888,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -909,14 +472,14 @@
           "S"
         ],
         "readings": {
-          "W": 1003.5,
-          "E": 316.0,
-          "S": 73.2
+          "W": 0.0,
+          "E": 0.0,
+          "S": 0.0
         }
       }
     },
     {
-      "t": 115.264,
+      "t": 110.848,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -937,7 +500,7 @@
       }
     },
     {
-      "t": 142.68800000000002,
+      "t": 137.6,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -951,14 +514,14 @@
           "W"
         ],
         "readings": {
-          "W": 73.6,
-          "E": 69.4,
-          "S": 260.4
+          "W": 0.0,
+          "E": 0.0,
+          "S": 0.0
         }
       }
     },
     {
-      "t": 148.12800000000001,
+      "t": 143.04,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -979,7 +542,7 @@
       }
     },
     {
-      "t": 175.552,
+      "t": 169.536,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -992,14 +555,14 @@
           "N"
         ],
         "readings": {
-          "S": 247.7,
-          "N": 66.1,
-          "E": 223.7
+          "S": 0.0,
+          "N": 0.0,
+          "E": 0.0
         }
       }
     },
     {
-      "t": 180.992,
+      "t": 174.976,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -1020,7 +583,7 @@
       }
     },
     {
-      "t": 208.416,
+      "t": 201.504,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -1034,14 +597,14 @@
           "N"
         ],
         "readings": {
-          "E": 67.3,
-          "W": 774.7,
-          "N": 68.2
+          "E": 0.0,
+          "W": 0.0,
+          "N": 0.0
         }
       }
     },
     {
-      "t": 209.376,
+      "t": 202.464,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -1062,7 +625,7 @@
       }
     },
     {
-      "t": 236.8,
+      "t": 228.416,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -1073,14 +636,14 @@
       "extra": {
         "opens": [],
         "readings": {
-          "E": 233.8,
-          "W": 841.8,
-          "N": 339.9
+          "E": 0.0,
+          "W": 0.0,
+          "N": 0.0
         }
       }
     },
     {
-      "t": 249.792,
+      "t": 241.40800000000002,
       "tag": "BACKTRACK",
       "state": "BACKTRACK",
       "tile": [
@@ -1100,7 +663,7 @@
       }
     },
     {
-      "t": 250.272,
+      "t": 241.888,
       "tag": "PROBING_SKIP",
       "state": "PROBING",
       "tile": [
@@ -1117,7 +680,7 @@
       }
     },
     {
-      "t": 255.71200000000002,
+      "t": 247.328,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -1138,7 +701,7 @@
       }
     },
     {
-      "t": 283.136,
+      "t": 274.592,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -1152,14 +715,14 @@
           "S"
         ],
         "readings": {
-          "S": 68.1,
-          "N": 67.3,
-          "E": 227.1
+          "S": 0.0,
+          "N": 0.0,
+          "E": 0.0
         }
       }
     },
     {
-      "t": 288.576,
+      "t": 280.032,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -1180,7 +743,7 @@
       }
     },
     {
-      "t": 316.0,
+      "t": 306.368,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -1193,14 +756,14 @@
           "E"
         ],
         "readings": {
-          "E": 61.3,
-          "W": 1469.3,
-          "N": 368.3
+          "E": 0.0,
+          "W": 0.0,
+          "N": 0.0
         }
       }
     },
     {
-      "t": 321.44,
+      "t": 311.808,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -1221,7 +784,7 @@
       }
     },
     {
-      "t": 348.86400000000003,
+      "t": 338.944,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -1234,14 +797,14 @@
           "S"
         ],
         "readings": {
-          "S": 69.0,
-          "N": 391.7,
-          "E": 203.5
+          "S": 0.0,
+          "N": 0.0,
+          "E": 0.0
         }
       }
     },
     {
-      "t": 354.30400000000003,
+      "t": 344.384,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -1262,7 +825,7 @@
       }
     },
     {
-      "t": 381.728,
+      "t": 370.656,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -1275,14 +838,14 @@
           "S"
         ],
         "readings": {
-          "W": 1201.8,
-          "E": 300.6,
-          "S": 74.7
+          "W": 0.0,
+          "E": 0.0,
+          "S": 0.0
         }
       }
     },
     {
-      "t": 382.688,
+      "t": 371.616,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -1303,7 +866,7 @@
       }
     },
     {
-      "t": 410.112,
+      "t": 398.272,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -1316,14 +879,14 @@
           "W"
         ],
         "readings": {
-          "W": 64.6,
-          "E": 317.6,
-          "S": 215.7
+          "W": 0.0,
+          "E": 0.0,
+          "S": 0.0
         }
       }
     },
     {
-      "t": 415.552,
+      "t": 403.712,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -1344,7 +907,7 @@
       }
     },
     {
-      "t": 442.976,
+      "t": 430.08,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
@@ -1358,14 +921,14 @@
           "S"
         ],
         "readings": {
-          "N": 70.2,
-          "S": 66.8,
-          "W": 371.2
+          "N": 0.0,
+          "S": 0.0,
+          "W": 0.0
         }
       }
     },
     {
-      "t": 448.416,
+      "t": 435.52,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -1386,7 +949,7 @@
       }
     },
     {
-      "t": 451.968,
+      "t": 439.072,
       "tag": "PROBING_SKIP",
       "state": "PROBING",
       "tile": [
@@ -1403,7 +966,7 @@
       }
     },
     {
-      "t": 464.96000000000004,
+      "t": 452.064,
       "tag": "BACKTRACK",
       "state": "BACKTRACK",
       "tile": [
@@ -1423,7 +986,7 @@
       }
     },
     {
-      "t": 465.44,
+      "t": 452.544,
       "tag": "PROBING_SKIP",
       "state": "PROBING",
       "tile": [
@@ -1440,7 +1003,7 @@
       }
     },
     {
-      "t": 466.40000000000003,
+      "t": 453.504,
       "tag": "MOVE_ONE_TILE",
       "state": "MOVE_ONE_TILE",
       "tile": [
@@ -1461,2135 +1024,24 @@
       }
     },
     {
-      "t": 493.824,
+      "t": 479.584,
       "tag": "PROBING",
       "state": "PROBING",
       "tile": [
         4,
         -3
-      ],
-      "heading": "S",
-      "extra": {
-        "opens": [
-          "S"
-        ],
-        "readings": {
-          "W": 530.3,
-          "E": 382.8,
-          "S": 73.7
-        }
-      }
-    },
-    {
-      "t": 494.784,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        4,
-        -4
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          4,
-          -3
-        ],
-        "to": [
-          4,
-          -4
-        ],
-        "heading": "S"
-      }
-    },
-    {
-      "t": 522.208,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        4,
-        -4
-      ],
-      "heading": "S",
-      "extra": {
-        "opens": [
-          "S"
-        ],
-        "readings": {
-          "W": 569.7,
-          "E": 351.1,
-          "S": 69.8
-        }
-      }
-    },
-    {
-      "t": 523.168,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        4,
-        -5
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          4,
-          -4
-        ],
-        "to": [
-          4,
-          -5
-        ],
-        "heading": "S"
-      }
-    },
-    {
-      "t": 550.592,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        4,
-        -5
       ],
       "heading": "S",
       "extra": {
         "opens": [
           "E",
-          "W"
-        ],
-        "readings": {
-          "W": 72.1,
-          "E": 65.5,
-          "S": 110.9
-        }
-      }
-    },
-    {
-      "t": 556.032,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        5,
-        -5
-      ],
-      "heading": "E",
-      "extra": {
-        "from": [
-          4,
-          -5
-        ],
-        "to": [
-          5,
-          -5
-        ],
-        "heading": "E"
-      }
-    },
-    {
-      "t": 583.456,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        5,
-        -5
-      ],
-      "heading": "E",
-      "extra": {
-        "opens": [
-          "N"
-        ],
-        "readings": {
-          "S": 112.9,
-          "N": 70.7,
-          "E": 222.8
-        }
-      }
-    },
-    {
-      "t": 588.896,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        5,
-        -4
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          5,
-          -5
-        ],
-        "to": [
-          5,
-          -4
-        ],
-        "heading": "N"
-      }
-    },
-    {
-      "t": 616.32,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        5,
-        -4
-      ],
-      "heading": "N",
-      "extra": {
-        "opens": [
-          "N"
-        ],
-        "readings": {
-          "E": 234.2,
-          "W": 854.9,
-          "N": 71.3
-        }
-      }
-    },
-    {
-      "t": 617.28,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        5,
-        -3
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          5,
-          -4
-        ],
-        "to": [
-          5,
-          -3
-        ],
-        "heading": "N"
-      }
-    },
-    {
-      "t": 644.7040000000001,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        5,
-        -3
-      ],
-      "heading": "N",
-      "extra": {
-        "opens": [],
-        "readings": {
-          "E": 353.0,
-          "W": 601.5,
-          "N": 1013.9
-        }
-      }
-    },
-    {
-      "t": 657.696,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        5,
-        -4
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          5,
-          -3
-        ],
-        "to": [
-          5,
-          -4
-        ]
-      }
-    },
-    {
-      "t": 658.176,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        5,
-        -4
-      ],
-      "heading": "S",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N"
-        ]
-      }
-    },
-    {
-      "t": 662.208,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        5,
-        -5
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          5,
-          -4
-        ],
-        "to": [
-          5,
-          -5
-        ]
-      }
-    },
-    {
-      "t": 662.688,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        5,
-        -5
-      ],
-      "heading": "S",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N"
-        ]
-      }
-    },
-    {
-      "t": 671.2,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        4,
-        -5
-      ],
-      "heading": "W",
-      "extra": {
-        "from": [
-          5,
-          -5
-        ],
-        "to": [
-          4,
-          -5
-        ]
-      }
-    },
-    {
-      "t": 671.6800000000001,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        4,
-        -5
-      ],
-      "heading": "W",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "E",
-          "W"
-        ]
-      }
-    },
-    {
-      "t": 672.64,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        3,
-        -5
-      ],
-      "heading": "W",
-      "extra": {
-        "from": [
-          4,
-          -5
-        ],
-        "to": [
-          3,
-          -5
-        ],
-        "heading": "W"
-      }
-    },
-    {
-      "t": 700.064,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        3,
-        -5
-      ],
-      "heading": "W",
-      "extra": {
-        "opens": [
-          "N"
-        ],
-        "readings": {
-          "N": 67.8,
-          "S": 116.1,
-          "W": 355.6
-        }
-      }
-    },
-    {
-      "t": 705.504,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        3,
-        -4
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          3,
-          -5
-        ],
-        "to": [
-          3,
-          -4
-        ],
-        "heading": "N"
-      }
-    },
-    {
-      "t": 732.928,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        3,
-        -4
-      ],
-      "heading": "N",
-      "extra": {
-        "opens": [
-          "N"
-        ],
-        "readings": {
-          "E": 785.8,
-          "W": 326.9,
-          "N": 71.0
-        }
-      }
-    },
-    {
-      "t": 733.888,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        3,
-        -3
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          3,
-          -4
-        ],
-        "to": [
-          3,
-          -3
-        ],
-        "heading": "N"
-      }
-    },
-    {
-      "t": 761.312,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        3,
-        -3
-      ],
-      "heading": "N",
-      "extra": {
-        "opens": [
-          "W"
-        ],
-        "readings": {
-          "E": 1137.6,
-          "W": 68.5,
-          "N": 900.0
-        }
-      }
-    },
-    {
-      "t": 766.7520000000001,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        2,
-        -3
-      ],
-      "heading": "W",
-      "extra": {
-        "from": [
-          3,
-          -3
-        ],
-        "to": [
-          2,
-          -3
-        ],
-        "heading": "W"
-      }
-    },
-    {
-      "t": 794.176,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        2,
-        -3
-      ],
-      "heading": "W",
-      "extra": {
-        "opens": [
           "S"
         ],
         "readings": {
-          "N": 1266.2,
-          "S": 67.2,
-          "W": 209.6
+          "W": 0.0,
+          "E": 0.0,
+          "S": 0.0
         }
-      }
-    },
-    {
-      "t": 799.616,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        2,
-        -4
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          2,
-          -3
-        ],
-        "to": [
-          2,
-          -4
-        ],
-        "heading": "S"
-      }
-    },
-    {
-      "t": 827.04,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        2,
-        -4
-      ],
-      "heading": "S",
-      "extra": {
-        "opens": [
-          "S"
-        ],
-        "readings": {
-          "W": 270.6,
-          "E": 1506.0,
-          "S": 65.8
-        }
-      }
-    },
-    {
-      "t": 828.0,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        2,
-        -5
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          2,
-          -4
-        ],
-        "to": [
-          2,
-          -5
-        ],
-        "heading": "S"
-      }
-    },
-    {
-      "t": 855.424,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        2,
-        -5
-      ],
-      "heading": "S",
-      "extra": {
-        "opens": [
-          "W"
-        ],
-        "readings": {
-          "W": 68.8,
-          "E": 531.6,
-          "S": 160.7
-        }
-      }
-    },
-    {
-      "t": 860.864,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        1,
-        -5
-      ],
-      "heading": "W",
-      "extra": {
-        "from": [
-          2,
-          -5
-        ],
-        "to": [
-          1,
-          -5
-        ],
-        "heading": "W"
-      }
-    },
-    {
-      "t": 888.288,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        1,
-        -5
-      ],
-      "heading": "W",
-      "extra": {
-        "opens": [
-          "N"
-        ],
-        "readings": {
-          "N": 67.4,
-          "S": 122.4,
-          "W": 261.4
-        }
-      }
-    },
-    {
-      "t": 893.7280000000001,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        1,
-        -4
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          1,
-          -5
-        ],
-        "to": [
-          1,
-          -4
-        ],
-        "heading": "N"
-      }
-    },
-    {
-      "t": 921.152,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        1,
-        -4
-      ],
-      "heading": "N",
-      "extra": {
-        "opens": [
-          "N",
-          "W"
-        ],
-        "readings": {
-          "E": 920.5,
-          "W": 72.1,
-          "N": 68.3
-        }
-      }
-    },
-    {
-      "t": 922.112,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        1,
-        -3
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          1,
-          -4
-        ],
-        "to": [
-          1,
-          -3
-        ],
-        "heading": "N"
-      }
-    },
-    {
-      "t": 949.5360000000001,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        1,
-        -3
-      ],
-      "heading": "N",
-      "extra": {
-        "opens": [],
-        "readings": {
-          "E": 885.1,
-          "W": 305.0,
-          "N": 1447.0
-        }
-      }
-    },
-    {
-      "t": 962.528,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        1,
-        -4
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          1,
-          -3
-        ],
-        "to": [
-          1,
-          -4
-        ]
-      }
-    },
-    {
-      "t": 963.008,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        1,
-        -4
-      ],
-      "heading": "S",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N",
-          "W"
-        ]
-      }
-    },
-    {
-      "t": 968.448,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        0,
-        -4
-      ],
-      "heading": "W",
-      "extra": {
-        "from": [
-          1,
-          -4
-        ],
-        "to": [
-          0,
-          -4
-        ],
-        "heading": "W"
-      }
-    },
-    {
-      "t": 995.8720000000001,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        0,
-        -4
-      ],
-      "heading": "W",
-      "extra": {
-        "opens": [
-          "N",
-          "S"
-        ],
-        "readings": {
-          "N": 72.3,
-          "S": 68.5,
-          "W": 451.7
-        }
-      }
-    },
-    {
-      "t": 1001.312,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        0,
-        -3
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          0,
-          -4
-        ],
-        "to": [
-          0,
-          -3
-        ],
-        "heading": "N"
-      }
-    },
-    {
-      "t": 1028.736,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        0,
-        -3
-      ],
-      "heading": "N",
-      "extra": {
-        "opens": [
-          "N"
-        ],
-        "readings": {
-          "E": 1209.3,
-          "W": 111.9,
-          "N": 71.8
-        }
-      }
-    },
-    {
-      "t": 1029.696,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        0,
-        -2
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          0,
-          -3
-        ],
-        "to": [
-          0,
-          -2
-        ],
-        "heading": "N"
-      }
-    },
-    {
-      "t": 1057.1200000000001,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        0,
-        -2
-      ],
-      "heading": "N",
-      "extra": {
-        "opens": [],
-        "readings": {
-          "E": 388.6,
-          "W": 558.2,
-          "N": 197.5
-        }
-      }
-    },
-    {
-      "t": 1070.112,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        0,
-        -3
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          0,
-          -2
-        ],
-        "to": [
-          0,
-          -3
-        ]
-      }
-    },
-    {
-      "t": 1070.592,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        0,
-        -3
-      ],
-      "heading": "S",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N"
-        ]
-      }
-    },
-    {
-      "t": 1074.624,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        0,
-        -4
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          0,
-          -3
-        ],
-        "to": [
-          0,
-          -4
-        ]
-      }
-    },
-    {
-      "t": 1075.104,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        0,
-        -4
-      ],
-      "heading": "S",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N",
-          "S"
-        ]
-      }
-    },
-    {
-      "t": 1076.064,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        0,
-        -5
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          0,
-          -4
-        ],
-        "to": [
-          0,
-          -5
-        ],
-        "heading": "S"
-      }
-    },
-    {
-      "t": 1103.488,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        0,
-        -5
-      ],
-      "heading": "S",
-      "extra": {
-        "opens": [
-          "W"
-        ],
-        "readings": {
-          "W": 73.2,
-          "E": 1345.9,
-          "S": 169.7
-        }
-      }
-    },
-    {
-      "t": 1108.928,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        -1,
-        -5
-      ],
-      "heading": "W",
-      "extra": {
-        "from": [
-          0,
-          -5
-        ],
-        "to": [
-          -1,
-          -5
-        ],
-        "heading": "W"
-      }
-    },
-    {
-      "t": 1132.544,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        0,
-        -4
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          0,
-          -5
-        ],
-        "to": [
-          0,
-          -4
-        ]
-      }
-    },
-    {
-      "t": 1133.0240000000001,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        0,
-        -4
-      ],
-      "heading": "N",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N",
-          "S"
-        ]
-      }
-    },
-    {
-      "t": 1141.536,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        1,
-        -4
-      ],
-      "heading": "E",
-      "extra": {
-        "from": [
-          0,
-          -4
-        ],
-        "to": [
-          1,
-          -4
-        ]
-      }
-    },
-    {
-      "t": 1142.016,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        1,
-        -4
-      ],
-      "heading": "E",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N",
-          "W"
-        ]
-      }
-    },
-    {
-      "t": 1150.528,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        1,
-        -5
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          1,
-          -4
-        ],
-        "to": [
-          1,
-          -5
-        ]
-      }
-    },
-    {
-      "t": 1151.008,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        1,
-        -5
-      ],
-      "heading": "S",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N"
-        ]
-      }
-    },
-    {
-      "t": 1159.52,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        2,
-        -5
-      ],
-      "heading": "E",
-      "extra": {
-        "from": [
-          1,
-          -5
-        ],
-        "to": [
-          2,
-          -5
-        ]
-      }
-    },
-    {
-      "t": 1160.0,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        2,
-        -5
-      ],
-      "heading": "E",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "W"
-        ]
-      }
-    },
-    {
-      "t": 1168.512,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        2,
-        -4
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          2,
-          -5
-        ],
-        "to": [
-          2,
-          -4
-        ]
-      }
-    },
-    {
-      "t": 1168.992,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        2,
-        -4
-      ],
-      "heading": "N",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "S"
-        ]
-      }
-    },
-    {
-      "t": 1173.0240000000001,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        2,
-        -3
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          2,
-          -4
-        ],
-        "to": [
-          2,
-          -3
-        ]
-      }
-    },
-    {
-      "t": 1173.5040000000001,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        2,
-        -3
-      ],
-      "heading": "N",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "S"
-        ]
-      }
-    },
-    {
-      "t": 1182.016,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        3,
-        -3
-      ],
-      "heading": "E",
-      "extra": {
-        "from": [
-          2,
-          -3
-        ],
-        "to": [
-          3,
-          -3
-        ]
-      }
-    },
-    {
-      "t": 1182.496,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        3,
-        -3
-      ],
-      "heading": "E",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "W"
-        ]
-      }
-    },
-    {
-      "t": 1191.008,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        3,
-        -4
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          3,
-          -3
-        ],
-        "to": [
-          3,
-          -4
-        ]
-      }
-    },
-    {
-      "t": 1191.488,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        3,
-        -4
-      ],
-      "heading": "S",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N"
-        ]
-      }
-    },
-    {
-      "t": 1195.52,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        3,
-        -5
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          3,
-          -4
-        ],
-        "to": [
-          3,
-          -5
-        ]
-      }
-    },
-    {
-      "t": 1196.0,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        3,
-        -5
-      ],
-      "heading": "S",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N"
-        ]
-      }
-    },
-    {
-      "t": 1204.512,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        4,
-        -5
-      ],
-      "heading": "E",
-      "extra": {
-        "from": [
-          3,
-          -5
-        ],
-        "to": [
-          4,
-          -5
-        ]
-      }
-    },
-    {
-      "t": 1204.992,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        4,
-        -5
-      ],
-      "heading": "E",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "E",
-          "W"
-        ]
-      }
-    },
-    {
-      "t": 1213.5040000000001,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        4,
-        -4
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          4,
-          -5
-        ],
-        "to": [
-          4,
-          -4
-        ]
-      }
-    },
-    {
-      "t": 1213.984,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        4,
-        -4
-      ],
-      "heading": "N",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "S"
-        ]
-      }
-    },
-    {
-      "t": 1218.016,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        4,
-        -3
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          4,
-          -4
-        ],
-        "to": [
-          4,
-          -3
-        ]
-      }
-    },
-    {
-      "t": 1218.496,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        4,
-        -3
-      ],
-      "heading": "N",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "S"
-        ]
-      }
-    },
-    {
-      "t": 1222.528,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        4,
-        -2
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          4,
-          -3
-        ],
-        "to": [
-          4,
-          -2
-        ]
-      }
-    },
-    {
-      "t": 1223.008,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        4,
-        -2
-      ],
-      "heading": "N",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N",
-          "S"
-        ]
-      }
-    },
-    {
-      "t": 1231.52,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        5,
-        -2
-      ],
-      "heading": "E",
-      "extra": {
-        "from": [
-          4,
-          -2
-        ],
-        "to": [
-          5,
-          -2
-        ]
-      }
-    },
-    {
-      "t": 1232.0,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        5,
-        -2
-      ],
-      "heading": "E",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "W"
-        ]
-      }
-    },
-    {
-      "t": 1240.512,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        5,
-        -1
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          5,
-          -2
-        ],
-        "to": [
-          5,
-          -1
-        ]
-      }
-    },
-    {
-      "t": 1240.992,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        5,
-        -1
-      ],
-      "heading": "N",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "S"
-        ]
-      }
-    },
-    {
-      "t": 1245.0240000000001,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        5,
-        0
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          5,
-          -1
-        ],
-        "to": [
-          5,
-          0
-        ]
-      }
-    },
-    {
-      "t": 1245.5040000000001,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        5,
-        0
-      ],
-      "heading": "N",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "S"
-        ]
-      }
-    },
-    {
-      "t": 1254.016,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        4,
-        0
-      ],
-      "heading": "W",
-      "extra": {
-        "from": [
-          5,
-          0
-        ],
-        "to": [
-          4,
-          0
-        ]
-      }
-    },
-    {
-      "t": 1254.496,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        4,
-        0
-      ],
-      "heading": "W",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "E"
-        ]
-      }
-    },
-    {
-      "t": 1263.008,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        4,
-        -1
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          4,
-          0
-        ],
-        "to": [
-          4,
-          -1
-        ]
-      }
-    },
-    {
-      "t": 1263.488,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        4,
-        -1
-      ],
-      "heading": "S",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N",
-          "S"
-        ]
-      }
-    },
-    {
-      "t": 1272.0,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        3,
-        -1
-      ],
-      "heading": "W",
-      "extra": {
-        "from": [
-          4,
-          -1
-        ],
-        "to": [
-          3,
-          -1
-        ]
-      }
-    },
-    {
-      "t": 1272.48,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        3,
-        -1
-      ],
-      "heading": "W",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "E",
-          "N"
-        ]
-      }
-    },
-    {
-      "t": 1280.992,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        3,
-        -2
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          3,
-          -1
-        ],
-        "to": [
-          3,
-          -2
-        ]
-      }
-    },
-    {
-      "t": 1281.472,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        3,
-        -2
-      ],
-      "heading": "S",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N"
-        ]
-      }
-    },
-    {
-      "t": 1289.984,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        2,
-        -2
-      ],
-      "heading": "W",
-      "extra": {
-        "from": [
-          3,
-          -2
-        ],
-        "to": [
-          2,
-          -2
-        ]
-      }
-    },
-    {
-      "t": 1290.464,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        2,
-        -2
-      ],
-      "heading": "W",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "E",
-          "W"
-        ]
-      }
-    },
-    {
-      "t": 1291.424,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        1,
-        -2
-      ],
-      "heading": "W",
-      "extra": {
-        "from": [
-          2,
-          -2
-        ],
-        "to": [
-          1,
-          -2
-        ],
-        "heading": "W"
-      }
-    },
-    {
-      "t": 1318.848,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        1,
-        -2
-      ],
-      "heading": "W",
-      "extra": {
-        "opens": [
-          "N"
-        ],
-        "readings": {
-          "N": 68.8,
-          "S": 180.5,
-          "W": 110.4
-        }
-      }
-    },
-    {
-      "t": 1324.288,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        1,
-        -1
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          1,
-          -2
-        ],
-        "to": [
-          1,
-          -1
-        ],
-        "heading": "N"
-      }
-    },
-    {
-      "t": 1351.712,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        1,
-        -1
-      ],
-      "heading": "N",
-      "extra": {
-        "opens": [
-          "W"
-        ],
-        "readings": {
-          "E": 670.4,
-          "W": 67.6,
-          "N": 1557.5
-        }
-      }
-    },
-    {
-      "t": 1357.152,
-      "tag": "MOVE_ONE_TILE",
-      "state": "MOVE_ONE_TILE",
-      "tile": [
-        0,
-        -1
-      ],
-      "heading": "W",
-      "extra": {
-        "from": [
-          1,
-          -1
-        ],
-        "to": [
-          0,
-          -1
-        ],
-        "heading": "W"
-      }
-    },
-    {
-      "t": 1384.576,
-      "tag": "PROBING",
-      "state": "PROBING",
-      "tile": [
-        0,
-        -1
-      ],
-      "heading": "W",
-      "extra": {
-        "opens": [],
-        "readings": {
-          "N": 111.9,
-          "S": 1257.8,
-          "W": 230.6
-        }
-      }
-    },
-    {
-      "t": 1397.568,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        1,
-        -1
-      ],
-      "heading": "E",
-      "extra": {
-        "from": [
-          0,
-          -1
-        ],
-        "to": [
-          1,
-          -1
-        ]
-      }
-    },
-    {
-      "t": 1398.048,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        1,
-        -1
-      ],
-      "heading": "E",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "W"
-        ]
-      }
-    },
-    {
-      "t": 1406.56,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        1,
-        -2
-      ],
-      "heading": "S",
-      "extra": {
-        "from": [
-          1,
-          -1
-        ],
-        "to": [
-          1,
-          -2
-        ]
-      }
-    },
-    {
-      "t": 1407.04,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        1,
-        -2
-      ],
-      "heading": "S",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "N"
-        ]
-      }
-    },
-    {
-      "t": 1415.5520000000001,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        2,
-        -2
-      ],
-      "heading": "E",
-      "extra": {
-        "from": [
-          1,
-          -2
-        ],
-        "to": [
-          2,
-          -2
-        ]
-      }
-    },
-    {
-      "t": 1416.032,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        2,
-        -2
-      ],
-      "heading": "E",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "E",
-          "W"
-        ]
-      }
-    },
-    {
-      "t": 1424.544,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        2,
-        -1
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          2,
-          -2
-        ],
-        "to": [
-          2,
-          -1
-        ]
-      }
-    },
-    {
-      "t": 1425.0240000000001,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        2,
-        -1
-      ],
-      "heading": "N",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "S"
-        ]
-      }
-    },
-    {
-      "t": 1429.056,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        2,
-        0
-      ],
-      "heading": "N",
-      "extra": {
-        "from": [
-          2,
-          -1
-        ],
-        "to": [
-          2,
-          0
-        ]
-      }
-    },
-    {
-      "t": 1429.536,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        2,
-        0
-      ],
-      "heading": "N",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "S"
-        ]
-      }
-    },
-    {
-      "t": 1438.048,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        1,
-        0
-      ],
-      "heading": "W",
-      "extra": {
-        "from": [
-          2,
-          0
-        ],
-        "to": [
-          1,
-          0
-        ]
-      }
-    },
-    {
-      "t": 1438.528,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        1,
-        0
-      ],
-      "heading": "W",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "E"
-        ]
-      }
-    },
-    {
-      "t": 1442.56,
-      "tag": "BACKTRACK",
-      "state": "BACKTRACK",
-      "tile": [
-        0,
-        0
-      ],
-      "heading": "W",
-      "extra": {
-        "from": [
-          1,
-          0
-        ],
-        "to": [
-          0,
-          0
-        ]
-      }
-    },
-    {
-      "t": 1443.04,
-      "tag": "PROBING_SKIP",
-      "state": "PROBING",
-      "tile": [
-        0,
-        0
-      ],
-      "heading": "W",
-      "extra": {
-        "reason": "already known",
-        "opens": [
-          "E"
-        ]
       }
     }
   ]
